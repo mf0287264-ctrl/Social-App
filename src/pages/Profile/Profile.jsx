@@ -18,7 +18,7 @@ import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "react-toastify";
 import { BeatLoader } from "react-spinners";
 import PostCard from "../../component/post/PostCard";
-import { contextId } from "../../Context/contextId";
+import { contextId } from "../../Context/contextid";
 export default function Profile() {
   const { userImage, setUserImage } = useOutletContext();
   const { userName } = useOutletContext();

@@ -29,7 +29,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { contToken } from "../../Context/ContextToken";
 import { BeatLoader, ClipLoader } from "react-spinners";
-import { contextId } from "../../Context/contextId";
+import { contextId } from "../../Context/contextid";
 import { MdDelete, MdEdit } from "react-icons/md";
 import {
   Dropdown,

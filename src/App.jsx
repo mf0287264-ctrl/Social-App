@@ -5,7 +5,7 @@ import AuthRoute from "./component/AuthRoute/AuthRoute";
 import Layout from "./component/Layout/Layout";
 import ProtectedRoutes from "./component/Layout/ProtectedRoutes/ProtectedRoutes";
 import ContextToken from "./Context/ContextToken";
-import Contextid from "./Context/contextId";
+import Contextid from "./Context/contextid";
 import Home from "./pages/Home";
 import Login from "./pages/Login/Login";
 import PostDetailes from "./pages/PostDetailes/PostDetailes";
