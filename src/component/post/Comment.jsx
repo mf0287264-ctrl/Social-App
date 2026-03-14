@@ -7,7 +7,7 @@ import { MdDelete } from "react-icons/md";
 import { contToken } from "../../Context/ContextToken";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { ClipLoader } from "react-spinners";
-import { contextId } from "../../Context/contextid";
+import { contextId } from "../../Context/Contextid";
 
 export default function Comment({ data, isTop }) {
   // console.log(data);

@@ -8,7 +8,7 @@ import { Link, useNavigate, useOutletContext } from "react-router-dom";
 import { BeatLoader } from "react-spinners";
 import * as z from "zod";
 import { contToken } from "../../Context/ContextToken";
-import { contextId } from "../../Context/contextid";
+import { contextId } from "../../Context/Contextid";
 import { contextPass } from "../../Context/ContextPass";
 export default function Login() {
   const [isShown, setIsShown] = useState(true);
