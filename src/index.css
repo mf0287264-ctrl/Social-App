@@ -1,0 +1,24 @@
+@import "tailwindcss";
+.active {
+  color: aqua;
+  @apply font-semibold after:h-[3px] after:w-full after:bg-cyan-300  after:absolute relative after:bottom-[-6px] after:left-0;
+}
+@plugin '../hero.js';
+/* Note: You may need to change the path to fit your project structur */
+@source '../node_modules/@heroui/theme/dist*';
+@custom-variant dark (&:is(.dark *));
+
+@layer components {
+  .link {
+    @apply text-lg  after:h-[3px] after:transition-all after:duration-300 after:w-0 after:bg-cyan-300  after:absolute relative after:bottom-[-6px] after:left-0 hover:after:w-full;
+  }
+  .input {
+    @apply w-full border-2 border-gray-300 rounded-lg py-3 px-2 mt-2 focus:border-blue-600 outline-0 bg-gray-100;
+  }
+  .btn {
+    @apply w-full bg-blue-600 text-xl rounded-2xl text-white py-3 px-2 border hover:bg-white hover:text-blue-600;
+  }
+  .inputError {
+    @apply text-red-600 font-semibold;
+  }
+}
